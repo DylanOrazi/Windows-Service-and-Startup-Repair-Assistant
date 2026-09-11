@@ -1,0 +1,193 @@
+﻿WINDOWS SERVICE AND STARTUP REPAIR ASSISTANT
+Project 29 - PowerShell Automation / IT Support Utility
+TXT Troubleshooting Report
+============================================================
+
+Export Timestamp: 2026-09-02 11:25:03
+Computer Name: DYLANLAPTOP
+User Name: dpora
+
+SYSTEM READINESS SUMMARY
+------------------------------------------------------------
+Print Spooler repair cancelled by technician.
+
+CURRENT TABLE RESULTS
+------------------------------------------------------------
+Category: Printing
+Name: Spooler
+Display Name / Command: Print Spooler
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Yes
+
+Category: Windows Update
+Name: wuauserv
+Display Name / Command: Windows Update
+Status: Running
+Startup Type: Manual
+Health: Healthy
+Restart Eligible: Yes
+
+Category: Windows Update
+Name: BITS
+Display Name / Command: Background Intelligent Transfer Service
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Yes
+
+Category: Windows Update
+Name: UsoSvc
+Display Name / Command: Update Orchestrator Service
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Protected
+
+Category: Security
+Name: WinDefend
+Display Name / Command: Microsoft Defender Antivirus
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Protected
+
+Category: Security
+Name: SecurityHealthService
+Display Name / Command: Windows Security Service
+Status: Running
+Startup Type: Manual
+Health: Healthy
+Restart Eligible: Protected
+
+Category: Security
+Name: mpssvc
+Display Name / Command: Windows Defender Firewall
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Protected
+
+Category: Security
+Name: EventLog
+Display Name / Command: Windows Event Log
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Protected
+
+Category: Network
+Name: Dhcp
+Display Name / Command: DHCP Client
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Protected
+
+Category: Network
+Name: Dnscache
+Display Name / Command: DNS Client
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Protected
+
+Category: Network
+Name: NlaSvc
+Display Name / Command: Network Location Awareness
+Status: Stopped
+Startup Type: Manual
+Health: Review
+Restart Eligible: Protected
+
+Category: Network
+Name: Netman
+Display Name / Command: Network Connections
+Status: Stopped
+Startup Type: Manual
+Health: Review
+Restart Eligible: Monitor Only
+
+Category: Network
+Name: WlanSvc
+Display Name / Command: WLAN AutoConfig
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Monitor Only
+
+Category: System Stability
+Name: W32Time
+Display Name / Command: Windows Time
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Yes
+
+Category: System Stability
+Name: Schedule
+Display Name / Command: Task Scheduler
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Protected
+
+Category: System Stability
+Name: LanmanWorkstation
+Display Name / Command: Workstation
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Protected
+
+Category: System Stability
+Name: ProfSvc
+Display Name / Command: User Profile Service
+Status: Running
+Startup Type: Auto
+Health: Healthy
+Restart Eligible: Protected
+
+Category: Remote Support
+Name: TermService
+Display Name / Command: Remote Desktop Services
+Status: Stopped
+Startup Type: Manual
+Health: Review
+Restart Eligible: Monitor Only
+
+Category: Remote Support
+Name: RemoteRegistry
+Display Name / Command: Remote Registry
+Status: Stopped
+Startup Type: Disabled
+Health: Review
+Restart Eligible: Monitor Only
+
+
+TECHNICIAN RECOMMENDATIONS
+------------------------------------------------------------
+Print Spooler Status: Running
+Startup Type: Unknown
+The Print Spooler is currently running. Restarting it may help with stuck print jobs, printer queue issues, or  printers showing offline incorrectly.
+This workflow will ask for confirmation before making any changes.
+
+TECHNICIAN ACTIVITY LOG
+------------------------------------------------------------
+[2026-09-02 11:23:09)] INFO - Application opened. Ready for technician action.
+[2026-09-02 11:23:45] SCAN - Service scan completed with updated recommendations.
+[2026-09-02 11:24:02] REVIEW - Startup item review completed.
+[2026-09-02 11:24:04] REVIEW - Startup item review completed.
+[2026-09-02 11:24:27] SCAN - Service scan completed with updated recommendations.
+[2026-09-02 11:24:35] BLOCKED - Restart blocked for WinDefend because restart eligibility is Protected.
+[2026-09-02 11:24:56] REVIEW - Print Spooler repair workflow reviewed service state.
+[2026-09-02 11:24:57] CANCELLED - Print Spooler repair cancelled by technician
+
+SAFETY NOTES
+------------------------------------------------------------
+This tool is designed for safe IT support troubleshooting.
+Protected, monitor-only, read-only, and startup review entries are not automatically modified.
+Service restart actions require technician confirmation.
+
+END OF REPORT
