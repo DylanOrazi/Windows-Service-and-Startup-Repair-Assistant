@@ -86,22 +86,16 @@ Limitations:
 This tool is intended for local Windows workstation troubleshooting. Some repair actions may require admin permissions. The tool does not connect to enterprise management platforms, Microsoft Intune, Active Directory, or remote machines.
 
 How to Run:
-1. Open the main project folder.
 
-2. Open the scripts folder.
+1. Download `ServiceStartupRepairAssistant.ps1` from the `scripts` folder.
+2. Open PowerShell in the folder containing the script.
+3. Temporarily allow script execution for the current PowerShell session:
 
-3. Right-click ServiceStartupRepairAssistant.ps1 and choose Run with PowerShell.
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-OR run it manually from PowerShell:
-
-   cd ".\scripts"
-   .\ServiceStartupRepairAssistant.ps1
-
-If PowerShell blocks the script, allow it for the current PowerShell session only:
-
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-
-Then run the script again:
+then type -> .\ServiceStartupRepairAssistant.ps1
+then click enter.
 
 
 
