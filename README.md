@@ -88,7 +88,7 @@ This tool is intended for local Windows workstation troubleshooting. Some repair
 How to Run:
 
 1. Download `ServiceStartupRepairAssistant.ps1` from the `scripts` folder.
-2. Open PowerShell in the folder containing the script.
+2. Open PowerShell in the folder containing the script by clicking the address bar at the top and type PowerShell.
 3. Temporarily allow script execution for the current PowerShell session:
 
 ```powershell
