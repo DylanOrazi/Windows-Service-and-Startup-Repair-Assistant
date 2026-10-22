@@ -94,7 +94,7 @@ How to Run:
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-then type -> .\ServiceStartupRepairAssistant.ps1
+then type -> .\Scripts\ServiceStartupRepairAssistant.ps1
 then click enter.
 
 
